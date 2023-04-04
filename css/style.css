@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand img {
+    height: 6vh;
+}
+
+.navbar {
+    padding: 1rem;
+    border-bottom: 2px solid #CDC5BF;
+    background-color: #CCC;
+}
+
+.navbar .nav-item a {
+    color: #212529;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+.navbar .nav-item .btn {
+    color: #FFF;
+    background-color: #f03e3e;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.form-control  {
+    width: 250px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+.d-flex button, .btn.btn-primary{
+    color: #FFF;
+    background-color: #CD5C5C;
+    border: 1px solid transparent;
+    border-radius: 0;
+} 
+#btn-buscar-filme:hover, .btn.btn-primary:hover{
+    background-color: #FFF;
+    color: #f03e3e;
+    border-color: #f03e3e;
+}
+
+.card {
+    border: 1px solid #CCC; 
+    border-radius: 0;
+}
+
+
+#lista-filmes {
+    flex-wrap: wrap; 
+    display: flex;
+    justify-content: space-around;
+}
+
+#mostrar-filme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form-filme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
